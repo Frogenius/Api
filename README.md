@@ -248,6 +248,7 @@ module.exports = router;
 ## Przykłady działania
 ### Baza danych użytkowników
 ![app.js](img/9.jpg)
+![app.js](img/baza.jpg)
 ### Dodawanie danych w Postmanie
 ![app.js](img/11.jpg)
 ### Sprawdzenie imienia i hasła
