@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+       <title>Rock clambing</title>                               
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <link href="./js/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="./js/myscript.js"></script>
+    <link rel="import" href="menu.htm">
+
+ </head>
+<body onload="onloadAnketa()">
+	<div class="pagec">
+		<div class="navi"><br/>
+			<div class="logo"><img alt="" src="img/kz.jpg" width="60"/></div>
+			<br/>
+			<ul>
+				<li><a href="index.htm">ROCK CLAMBING</a></li>                
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn">O wspinaczce</a>
+					<div class="dropdown-content">
+						<a href="page1.htm" > O wspinaczce</a>
+						<a href="page2.htm" > Rodzaje wspinaczki</a>
+						<a href="page3.htm" > 10 powodów</a>
+						<a href="page5.htm" > Historia</a>
+					</div>
+				</li>
+				<li><a href="page4.htm" > Galeria </a></li>
+				<li><a href="page7.htm" > Ankieta </a></li>
+				<li><a href="page6.htm" > Kontakt </a></li>                
+			</ul>
+		</div>   
+		<div class="content">
+			<div class="content_in">
+
+				<div id="hellow" class="hellow" >
+					<div id="form_anketa">
+						<form action="/ins_user" method="post" >
+						<h2 class="">
+						<span>Zgłoszenie do wapółzawodnictwa :</span></h2>  
+							<br/> 
+							<table>
+								<tr><td>Imię i Nazwisko:</td><td><input class="input_f" id="youname" name="userName" type="text" onchange="fieldAnketa(id,value)" value=""/></td></tr>
+								<tr><td>Telefon komórkowy:</td><td><input class="input_f" id="tel" name="userPhone" type="tel" placeholder="+7 XXX XXXXXXX" onchange="fieldAnketa(id,value)" /></td></tr>
+								<tr><td>Adres e-mail:</td><td><input class="input_f" id="email" name="userEMail" type="email" placeholder="sample@gmail.com" onchange="fieldAnketa(id,value)"  value=""/></td></tr>
+								<tr><td>Nowe Hasło :</td><td><input class="input_f" id="password" name="userPassword" type="password"  /></td></tr>
+								<tr><td>Powtórz Hasło :</td><td><input class="input_f" id="password" name="userRePassword" type="password"  /></td></tr>
+								<tr><td><img alt='' id="train" class="input_f train" src="./img/letter.png" onclick="sendletter(this.form)"/>
+
+								</td><td><input type="submit" value="Wysłać" onclick="clerletter(this.form);true;" /></td></tr>
+							</table>
+   
+    
+						</form>
+					</div>        
+
+				</div>
+
+				
+     
+
+
+		
+
+    </div> 
+ </body>
+</html>
