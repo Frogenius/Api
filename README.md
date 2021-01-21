@@ -245,3 +245,5 @@ response.send("Dane usunięte");
 
 module.exports = router;
 ```
+## Przykłady działania
+
