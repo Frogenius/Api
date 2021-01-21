@@ -246,4 +246,22 @@ response.send("Dane usunięte");
 module.exports = router;
 ```
 ## Przykłady działania
-
+### Baza danych użytkowników
+![app.js](img/9.jpg)
+### Dodawanie danych w Postmanie
+![app.js](img/11.jpg)
+### Sprawdzenie imienia i hasła
+![app.js](img/check.jpg)
+### Usuwanie danych
+![app.js](img/delete.jpg)
+### Dodawanie danych w html
+![app.js](img/1.jpg)
+![app.js](img/2.jpg)
+### Jeżeli użytkownika nie ma w bazie:
+![app.js](img/3.jpg)
+### Jeżeli użytkownik już ma dane w bazie:
+![app.js](img/6.jpg)
+### Walidacji
+![app.js](img/8.jpg)
+![app.js](img/7.jpg)
+![app.js](img/4.jpg)
