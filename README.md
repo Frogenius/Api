@@ -13,7 +13,7 @@
 ### app.js 
 > eksport routerów, podłączenie css, startowanie servera
 
-![alt text](android/app.jpg)
+![app.js](img/app.jpg)
 
 ### Użytkowniki z bazy
 ```
